@@ -26,4 +26,4 @@ Ich bin ein autodidaktischer Webentwickler mit einem Hintergrund in Sprachunterr
 
 ### 🗺️ Jenseits des Codes
 
-Ich bin leidenschaftlicher Läufer 🏃‍♂️ – beim Laufen verliere ich mich oft in Gedanken über Geschichte (vor allem die Französische Revolution 🇫🇷), Orte, an denen ich war 🌍 (z. B. New York, Paris, Peru, Dubai), oder Reiseziele, die ich noch sehen möchte (wie die Schweiz oder die Karibik). Manchmal verliere ich mich in diesen Gedanken mehr als in JavaScript-Schleifen 🌀. Vielleicht läuft mein Kopf manchmal schneller als meine Beine.
+Ich bin leidenschaftlicher Läufer 🏃‍♂️ – beim Laufen verliere ich mich oft in Gedanken über Geschichte (vor allem die Französische Revolution), Orte, an denen ich war 🌍 (z. B. New York, Paris, Peru, Dubai), oder Reiseziele, die ich noch sehen möchte (wie die Schweiz oder die Karibik). Manchmal verliere ich mich in diesen Gedanken mehr als in JavaScript-Schleifen 🌀. Vielleicht läuft mein Kopf manchmal schneller als meine Beine.
