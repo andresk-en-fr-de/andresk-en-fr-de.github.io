@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.5.0/css/flag-icon.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <title>Andre | Mehrsprachig Webentwickler und Frontend-App-Ersteller</title>
+  <style>
+    body {
+      font-family: Inter, sans-serif;
+      background: #f9f9f9;
+      color: #333;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background: #4a90e2;
+      color: white;
+      padding: 2rem;
+      text-align: center;
+	   color: #e0e0e0; /* optional softer gray on dark background */
+    }
+	header p {
+  font-size: 1.25rem;
+  font-weight: 400;
+  margin-top: 0.5rem;
+  color: white;
+}
+    main {
+      max-width: 800px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+    }
+    a {
+      color: #4a90e2;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+ul {
+  padding-left: 1.2rem;
+}
+
+li {
+  font-size: 1.3rem;
+  line-height: 1.7;
+  margin-bottom: 1.1rem;
+}
+p {
+  font-size: 1.05rem;
+  line-height: 1.7;
+  margin-bottom: 1.1rem;
+}
+
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Andre</h1>
+  <p>🌍Mehrsprachig EN/FR/DE/SK (Studium auf Englisch und Französisch 🎓), Webentwickler und Frontend-App-Ersteller
+  <a href="index.html" class="flag-icon flag-icon-gb" title="Englisch" style="margin: 0 0.5rem;"></a>
+  <a href="index_de.html" class="flag-icon flag-icon-de" title="Deutsch" style="margin: 0 0.5rem;"></a>
+  <a href="index_fr.html" class="flag-icon flag-icon-fr" title="Französisch" style="margin: 0 0.5rem;"></a>
+  <a href="index_sk.html" class="flag-icon flag-icon-sk" title="Slowakisch" style="margin: 0 0.5rem;"></a>
+</p>
+</header>
+<main>
+  <h2>Projekte</h2>
+  <ul>
+    <li><a href="https://englishandrej.sk" target="_blank">englishandrej.sk</a> – Webseite eines Sprachlehrers (HTML, CSS, JS, PHP)</li>
+    <li><a href="https://kubikovci.englishandrej.sk" target="_blank">kubikovci.englishandrej.sk</a>🐾 – Kleine Business-Webseite für eine Tierarztpraxis</li>
+    <li><a href="https://andresk-en-fr-de.github.io/andre-s-cocktail-app/" target="_blank">Cocktail App</a> – KI-gestütztes Projekt zum Mixen von Cocktails 🍹</li>
+    <li>Diese Landingpage übrigens auch 😉</li>
+  </ul>
+  <h2>Über mich</h2>
+    <p>🗓️ Ich habe 2024 mit dem Programmieren begonnen – aufbauend auf einem soliden Hintergrund im Sprachunterricht und in der Übersetzung. Heute kann ich visuell ansprechende Webseiten und Frontend-Web-Apps mit <b>HTML, CSS, JavaScript</b> erstellen, unterstützt durch KI-Tools wie ChatGPT und DALL·E. Ich genieße es, Ideen in klare, benutzerzentrierte digitale Erlebnisse zu verwandeln. Meine frühere Erfahrung im digitalen Marketing – einschließlich <b>Google Ads</b> und <b>Google Analytics</b> – hilft mir, nicht nur in <b>UI</b>, sondern auch in <b>UX</b>, Konversion und <b>Nutzerverhalten</b> zu denken.</p>
+  </main>
+  <script>
+  const greetings = [
+  "Hello! My name is Andre",
+  "Hallo! Ich bin Andre",
+  "Bonjour ! Je suis Andre",
+  "Ahoj! Volám sa Andre"
+];
+
+let index = 0;
+
+setInterval(() => {
+  const heading = document.querySelector("h1");
+  heading.textContent = greetings[index];
+  index = (index + 1) % greetings.length;
+}, 3500);
+
+  </script>
+</body>
+</html>
