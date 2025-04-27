@@ -53,6 +53,16 @@ p {
   line-height: 1.7;
   margin-bottom: 1.1rem;
 }
+.highlight {
+  transition: transform 0.5s ease;
+}
+
+.highlight.enlarged {
+  transform: scale(1.2);
+  color: #6157ce; /* optional softer gray on dark background */
+}
+
+
 
   </style>
 </head>
@@ -75,7 +85,8 @@ p {
     <li>Diese Landingpage übrigens auch 😉</li>
   </ul>
   <h2>Über mich</h2>
-    <p>🗓️ Ich habe 2024 mit dem Programmieren begonnen – aufbauend auf einem soliden Hintergrund im Sprachunterricht und in der Übersetzung. Heute kann ich visuell ansprechende Webseiten und Frontend-Web-Apps mit <b>HTML, CSS, JavaScript</b> erstellen, unterstützt durch KI-Tools wie ChatGPT und DALL·E. Ich genieße es, Ideen in klare, benutzerzentrierte digitale Erlebnisse zu verwandeln. Meine frühere Erfahrung im digitalen Marketing – einschließlich <b>Google Ads</b> und <b>Google Analytics</b> – hilft mir, nicht nur in <b>UI</b>, sondern auch in <b>UX</b>, Konversion und <b>Nutzerverhalten</b> zu denken.</p>
+    <p>🗓️ Ich habe 2024 mit dem Programmieren begonnen – aufbauend auf einem soliden Hintergrund im Sprachunterricht und in der Übersetzung. Heute kann ich visuell ansprechende Webseiten und Frontend-Web-Apps mit <b><span class="highlight">HTML</span></b>, <b><span class="highlight">CSS</span></b>, <b><span class="highlight">JavaScript</span></b> erstellen, unterstützt durch KI-Tools wie ChatGPT und DALL·E. Ich genieße es, Ideen in klare, benutzerzentrierte digitale Erlebnisse zu verwandeln. Meine frühere Erfahrung im digitalen Marketing – einschließlich <b><span class="highlight">Google Ads</span></b> und <b><span class="highlight">Google Analytics</span></b> – hilft mir, nicht nur in <b><span class="highlight">UI</span></b>, sondern auch in <b><span class="highlight">UX</span></b>, Konversion und <b>Nutzerverhalten</b> zu denken.</p>
+
   </main>
   <script>
   const greetings = [
@@ -93,6 +104,21 @@ setInterval(() => {
   index = (index + 1) % greetings.length;
 }, 3500);
 
-  </script>
+const highlights = document.querySelectorAll(".highlight");
+
+function animateHighlights() {
+console.log('Highlight animation triggered');
+  highlights.forEach(el => el.classList.add("enlarged"));
+  
+  setTimeout(() => {
+    highlights.forEach(el => el.classList.remove("enlarged"));
+  }, 3500); // Shrink back after 3.5 seconds
+}
+
+setTimeout(() => {
+  animateHighlights();
+  setInterval(animateHighlights, 10000); // Repeat every 10 seconds
+}, 4000);
+</script>
 </body>
 </html>
