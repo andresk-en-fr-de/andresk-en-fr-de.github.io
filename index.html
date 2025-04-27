@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.5.0/css/flag-icon.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.5.0/css/flag-icon.min.css">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
   <title>Andre | Multilingual Web Developer & Frontend App Creator</title>
   <style>
@@ -19,14 +19,14 @@
       color: white;
       padding: 2rem;
       text-align: center;
-	   color: #e0e0e0; /* optional softer gray on dark background */
+      color: #e0e0e0; /* optional softer gray on dark background */
     }
-	header p {
-  font-size: 1.25rem;
-  font-weight: 400;
-  margin-top: 0.5rem;
-  color: white;
-}
+    header p {
+      font-size: 1.25rem;
+      font-weight: 400;
+      margin-top: 0.5rem;
+      color: white;
+    }
     main {
       max-width: 800px;
       margin: 2rem auto;
@@ -39,58 +39,81 @@
     a:hover {
       text-decoration: underline;
     }
-ul {
-  padding-left: 1.2rem;
-}
-
-li {
-  font-size: 1.3rem;
-  line-height: 1.7;
-  margin-bottom: 1.1rem;
-}
-p {
-  font-size: 1.05rem;
-  line-height: 1.7;
-  margin-bottom: 1.1rem;
-}
-
+    ul {
+      padding-left: 1.2rem;
+    }
+    li {
+      font-size: 1.3rem;
+      line-height: 1.7;
+      margin-bottom: 1.1rem;
+    }
+    p {
+      font-size: 1.05rem;
+      line-height: 1.7;
+      margin-bottom: 1.1rem;
+    }
+    .highlight {
+      transition: transform 0.5s ease, color 0.5s ease;
+    }
+    .highlight.enlarged {
+      transform: scale(1.2);
+      color: #6157ce; /* Highlighted color */
+    }
   </style>
 </head>
 <body>
   <header>
     <h1>Andre</h1>
-    <p>🌍Multilingual EN/FR/DE/SK (EN/FR uni-educated🎓) Web Developer and Frontend App Creator  <a href="index.html" class="flag-icon flag-icon-gb" title="Anglais" style="margin: 0 0.5rem;"></a>
-  <a href="index_de.html" class="flag-icon flag-icon-de" title="Allemand" style="margin: 0 0.5rem;"></a>
-  <a href="index_fr.html" class="flag-icon flag-icon-fr" title="Français" style="margin: 0 0.5rem;"></a>
-  <a href="index_sk.html" class="flag-icon flag-icon-sk" title="Slovaque" style="margin: 0 0.5rem;"></a></p>
+    <p>🌍Multilingual EN/FR/DE/SK (EN/FR uni-educated🎓) Web Developer and Frontend App Creator  
+      <a href="index.html" class="flag-icon flag-icon-gb" title="English" style="margin: 0 0.5rem;"></a>
+      <a href="index_de.html" class="flag-icon flag-icon-de" title="German" style="margin: 0 0.5rem;"></a>
+      <a href="index_fr.html" class="flag-icon flag-icon-fr" title="French" style="margin: 0 0.5rem;"></a>
+      <a href="index_sk.html" class="flag-icon flag-icon-sk" title="Slovak" style="margin: 0 0.5rem;"></a>
+    </p>
   </header>
   <main>
     <h2>Projects</h2>
     <ul>
       <li><a href="https://englishandrej.sk" target="_blank">englishandrej.sk</a> – Language teacher's website (HTML, CSS, JS, PHP)</li>
       <li><a href="https://kubikovci.englishandrej.sk" target="_blank">kubikovci.englishandrej.sk</a>🐾 – Small business site for a vet & pet store</li>
-      <li><a href="https://andresk-en-fr-de.github.io/andre-s-cocktail-app/" target="_blank">Cocktail App</a> – AI-assisted project for mixing cocktails based on ingredients🍹</li>
-<li> This landing website too, actually ;)</li>
+      <li><a href="https://andresk-en-fr-de.github.io/andre-s-cocktail-app/" target="_blank">Cocktail App</a> – A creative cocktail suggestion app. Built with HTML, CSS, JavaScript, and JSON — styled with custom assets and sounds. Designed and structured by me with AI support for brainstorming, developing, debugging (ChatGPT), and generating visual content (DALL-E).🍹</li>
+      <li>This landing website too, actually ;)</li>
     </ul>
     <h2>About Me</h2>
-    <p>🗓️ I began learning to code in 2024, building on a strong background in language teaching and translation. Today, I can create visually engaging websites and front-end web apps using <b>HTML, CSS, JavaScript</b>, supported by AI tools like ChatGPT and DALL·E. I enjoy turning ideas into clean, user-focused digital experiences. My previous experience with digital marketing — including <b>Google Ads</b> and <b>Google Analytics</b> — helps me think not only in terms of <b>UI</b>, but also <b>UX</b>, conversion, and <b>user behavior</b>.<p>
+    <p>🗓️ I began learning to code in 2024, building on a strong background in language teaching and translation. Today, I can create visually engaging websites and front-end web apps using <b><span class="highlight">HTML</span></b>, <b><span class="highlight">CSS</span></b>, <b><span class="highlight">JavaScript</span></b>, supported by AI tools like ChatGPT and DALL·E. I enjoy turning ideas into clean, user-focused digital experiences. My previous experience with digital marketing — including <b><span class="highlight">Google Ads</span></b> and <b><span class="highlight">Google Analytics</span></b> — helps me think not only in terms of <b><span class="highlight">UI</span></b>, but also <b><span class="highlight">UX</span></b>, conversion, and <b>user behavior</b>.</p>
   </main>
   <script>
-  const greetings = [
-  "Hello! My name is Andre",
-  "Hallo! Ich bin Andre",
-  "Bonjour ! Je suis Andre",
-  "Ahoj! Volám sa Andre"
-];
+    document.addEventListener("DOMContentLoaded", () => {
+      const greetings = [
+        "Hello! My name is Andre",
+        "Hallo! Ich bin Andre",
+        "Bonjour ! Je suis Andre",
+        "Ahoj! Volám sa Andre"
+      ];
 
-let index = 0;
+      let index = 0;
 
-setInterval(() => {
-  const heading = document.querySelector("h1");
-  heading.textContent = greetings[index];
-  index = (index + 1) % greetings.length;
-}, 3500);
+      setInterval(() => {
+        const heading = document.querySelector("h1");
+        heading.textContent = greetings[index];
+        index = (index + 1) % greetings.length;
+      }, 3500);
 
+      const highlights = document.querySelectorAll(".highlight");
+
+      function animateHighlights() {
+        highlights.forEach(el => el.classList.add("enlarged"));
+
+        setTimeout(() => {
+          highlights.forEach(el => el.classList.remove("enlarged"));
+        }, 3500); // Shrink back after 3.5 seconds
+      }
+
+      setTimeout(() => {
+        animateHighlights();
+        setInterval(animateHighlights, 10000); // Repeat every 10 seconds
+      }, 4000);
+    });
   </script>
 </body>
 </html>
