@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="sk">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -19,14 +19,14 @@
       color: white;
       padding: 2rem;
       text-align: center;
-	   color: #e0e0e0; /* optional softer gray on dark background */
+      color: #e0e0e0; /* optional softer gray on dark background */
     }
-	header p {
-  font-size: 1.25rem;
-  font-weight: 400;
-  margin-top: 0.5rem;
-  color: white;
-}
+    header p {
+      font-size: 1.25rem;
+      font-weight: 400;
+      margin-top: 0.5rem;
+      color: white;
+    }
     main {
       max-width: 800px;
       margin: 2rem auto;
@@ -39,128 +39,81 @@
     a:hover {
       text-decoration: underline;
     }
-ul {
-  padding-left: 1.2rem;
-}
-
-li {
-  font-size: 1.3rem;
-  line-height: 1.7;
-  margin-bottom: 1.1rem;
-}
-p {
-  font-size: 1.05rem;
-  line-height: 1.7;
-  margin-bottom: 1.1rem;
-}
-.project-card {
-  background: white;
-  padding: 1rem;
-  margin-bottom: 1.5rem;
-  border-radius: 12px;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.05);
-}
-
-main::before {
-     main: "";
-    position: absolute;
-    top: 0;
-    left: -100%;
-    width: 100%;
-    height: 100%;
-    background: linear-gradient(60deg, rgba(255, 255, 255, 0) 30%, rgba(255, 255, 255, 0.7) 50%, rgba(255, 255, 255, 0) 70%);
-    opacity: 0.8;
-    mix-blend-mode: overlay;
-    animation: imageShine 4s linear;
-    pointer-events: none;
-    filter: brightness(1.8);
-}
-
-/* Keyframes for Smooth Shine Effect */
-@keyframes diagonalShine {
-    0% {
-        left: -120%;
-        opacity: 0.3;
+    ul {
+      padding-left: 1.2rem;
     }
-    50% {
-        opacity: 1;
+    li {
+      font-size: 1.3rem;
+      line-height: 1.7;
+      margin-bottom: 1.1rem;
     }
-    100% {
-        left: 120%;
-        opacity: 0;
+    p {
+      font-size: 1.05rem;
+      line-height: 1.7;
+      margin-bottom: 1.1rem;
     }
-}
-/* JS-Controlled Animation Class with Force Restart */
-.shining::before {
-    animation: diagonalShine 3.5s linear forwards;
-    animation-fill-mode: forwards;
-    will-change: transform, opacity;
-}
-
-
+    .highlight {
+      transition: transform 0.5s ease, color 0.5s ease;
+    }
+    .highlight.enlarged {
+      transform: scale(1.2);
+      color: #6157ce; /* Zvýraznená farba */
+    }
   </style>
 </head>
 <body>
   <header>
     <h1>Andre</h1>
-  <p>🌍Multilingválny EN/FR/DE/SK (univerzitné štúdium v angličtine a francúzštine 🎓), web developer a tvorca frontend aplikácií
-  <a href="index.html" class="flag-icon flag-icon-gb" title="Angličtina" style="margin: 0 0.5rem;"></a>
-  <a href="index_de.html" class="flag-icon flag-icon-de" title="Nemčina" style="margin: 0 0.5rem;"></a>
-  <a href="index_fr.html" class="flag-icon flag-icon-fr" title="Francúzština" style="margin: 0 0.5rem;"></a>
-  <a href="index_sk.html" class="flag-icon flag-icon-sk" title="Slovenčina" style="margin: 0 0.5rem;"></a>
-</p>
-</header>
-<main>
-<div class="project-card">
-
-  <h2>Projekty</h2>
-  <ul>
-    <li><a href="https://englishandrej.sk" target="_blank">englishandrej.sk</a> – Oficiálna stránka lektora jazykov (HTML, CSS, JS, PHP)</li>
-    <li><a href="https://kubikovci.englishandrej.sk" target="_blank">kubikovci.englishandrej.sk</a>🐾 – Web pre veterinu a chovateľské potreby</li>
-    <li><a href="https://andresk-en-fr-de.github.io/andre-s-cocktail-app/" target="_blank">Cocktail App</a> – Frontend appka na miešanie koktailov podľa surovín 🍹 - s krásnymi obrázkami koktejlov a pozadí</li>
-    <li>Aj táto landing stránka, mimochodom 😉</li>
-  </ul>
-  </div>
-  <h2>O mne</h2>
-
-    <p>🗓️ S programovaním som začal už ako pokročilý podnikateľ v jazykovom priemysle, pričom som nadviazal na silné zázemie v jazykovom vzdelávaní a preklade. Dnes dokážem vytvárať vizuálne pútavé webové stránky a front-end aplikácie pomocou <b>HTML, CSS, JavaScript</b>, s podporou AI nástrojov ako ChatGPT a DALL·E. Baví ma premieňať nápady na čisté a na užívateľa zamerané digitálne zážitky. Moje predchádzajúce skúsenosti s digitálnym marketingom — vrátane <b>Google Ads</b> a <b>Google Analytics</b> — mi pomáhajú uvažovať nielen v pojmoch <b>UI</b>, ale aj <b>UX</b>, konverzií a <b>správania používateľov</b>.</p>
-
+    <p>🌍Multilingválny EN/FR/DE/SK (univerzitné štúdium v angličtine a francúzštine 🎓), web developer a tvorca frontend aplikácií
+      <a href="index.html" class="flag-icon flag-icon-gb" title="Angličtina" style="margin: 0 0.5rem;"></a>
+      <a href="index_de.html" class="flag-icon flag-icon-de" title="Nemčina" style="margin: 0 0.5rem;"></a>
+      <a href="index_fr.html" class="flag-icon flag-icon-fr" title="Francúzština" style="margin: 0 0.5rem;"></a>
+      <a href="index_sk.html" class="flag-icon flag-icon-sk" title="Slovenčina" style="margin: 0 0.5rem;"></a>
+    </p>
+  </header>
+  <main>
+    <h2>Projekty</h2>
+    <ul>
+      <li><a href="https://englishandrej.sk" target="_blank">englishandrej.sk</a> – Oficiálna stránka lektora jazykov (HTML, CSS, JS, PHP)</li>
+      <li><a href="https://kubikovci.englishandrej.sk" target="_blank">kubikovci.englishandrej.sk</a>🐾 – Web pre veterinu a chovateľské potreby</li>
+      <li><a href="https://andresk-en-fr-de.github.io/andre-s-cocktail-app/" target="_blank">Cocktail App</a> – Frontend appka na miešanie koktailov podľa surovín 🍹</li>
+      <li>Aj táto landing stránka, mimochodom 😉</li>
+    </ul>
+    <h2>O mne</h2>
+    <p>🗓️ S programovaním som začal už ako pokročilý podnikateľ v jazykovom priemysle, pričom som nadviazal na silné zázemie v jazykovom vzdelávaní a preklade. Dnes dokážem vytvárať vizuálne pútavé webové stránky a front-end aplikácie pomocou <b><span class="highlight">HTML</span></b>, <b><span class="highlight">CSS</span></b>, <b><span class="highlight">JavaScript</span></b>, s podporou AI nástrojov ako ChatGPT a DALL·E. Baví ma premieňať nápady na čisté a na užívateľa zamerané digitálne zážitky. Moje predchádzajúce skúsenosti s digitálnym marketingom — vrátane <b><span class="highlight">Google Ads</span></b> a <b><span class="highlight">Google Analytics</span></b> — mi pomáhajú uvažovať nielen v pojmoch <b><span class="highlight">UI</span></b>, ale aj <b><span class="highlight">UX</span></b>, konverzií a <b>správania používateľov</b>.</p>
   </main>
   <script>
-  const greetings = [
-  "Hello! My name is Andre",
-  "Hallo! Ich bin Andre",
-  "Bonjour ! Je suis Andre",
-  "Ahoj! Volám sa Andre"
-];
+    document.addEventListener("DOMContentLoaded", () => {
+      const greetings = [
+        "Hello! My name is Andre",
+        "Hallo! Ich bin Andre",
+        "Bonjour ! Je suis Andre",
+        "Ahoj! Volám sa Andre"
+      ];
 
-let index = 0;
+      let index = 0;
 
-setInterval(() => {
-  const heading = document.querySelector("h1");
-  heading.textContent = greetings[index];
-  index = (index + 1) % greetings.length;
-}, 4500);
+      setInterval(() => {
+        const heading = document.querySelector("h1");
+        heading.textContent = greetings[index];
+        index = (index + 1) % greetings.length;
+      }, 3500);
 
-document.addEventListener("DOMContentLoaded", function () {
-    // 🟡 Shine Effect Fix: Prevent Centered Area Movement with CSS Isolation
-    function triggerShineEffect() {
-        const main = document.querySelector("main");
-        if (main) {
-            console.log("✨ Shine effect triggered via JS!");
+      const highlights = document.querySelectorAll(".highlight");
 
-            // Apply the shine effect to a pseudo-element instead of the main container
-            main.classList.remove("shining");
-            void main.offsetHeight; // Trigger reflow to restart animation
-            main.classList.add("shining");
-        } else {
-            console.warn("⚠️ .main not found. Verify HTML class name.");
-        }
-    }
+      function animateHighlights() {
+        highlights.forEach(el => el.classList.add("enlarged"));
 
-    window.shineInterval = setInterval(triggerShineEffect, 10000);
-	    triggerShineEffect(); // Immediate initial trigger
-});
-</script>
+        setTimeout(() => {
+          highlights.forEach(el => el.classList.remove("enlarged"));
+        }, 3500); // Shrink back after 3.5 seconds
+      }
+
+      setTimeout(() => {
+        animateHighlights();
+        setInterval(animateHighlights, 10000); // Repeat every 10 seconds
+      }, 4000);
+    });
+  </script>
 </body>
 </html>
