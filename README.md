@@ -17,7 +17,7 @@ The site introduces me and showcases projects I’ve built using traditional fro
 
 
 ## 📝 About me
-I'm a multilingual self-taught web developer with a background in language teaching, translation, and digital marketing. I speak English, French, German, and Slovak — and I can build websites and simple front-end apps using **HTML, CSS, JavaScript, and AI tools** like ChatGPT and DALL·E. I'm currently exploring freelance or creative tech work in Slovakia, Czech Republic and the DACH region (Austria, Germany, Switzerland).
+I'm a multilingual self-taught web developer with a background in language teaching, translation, and digital marketing. I speak English, French, German, and Slovak — and I can build websites and simple front-end apps using **HTML, CSS, JavaScript, and tools like VS code and DALL·E. I'm currently exploring freelance or creative tech work in Slovakia, Czech Republic and the DACH region (Austria, Germany, Switzerland).
 
 ### 🗺️ Beyond the Code
 
