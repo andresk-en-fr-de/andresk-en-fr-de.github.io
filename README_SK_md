@@ -1,6 +1,6 @@
 # 🌍 GitHub Andrejove portfólio
 
-Toto je moja portfóliová stránka – vytvorená úplne od základov pomocou **HTML, CSS a JavaScriptu** (pomocou AI) a hostovaná cez **GitHub Pages**.
+Toto je moja portfóliová stránka – vytvorená úplne od základov pomocou **HTML, CSS a JavaScriptu** (s podporoou AI) a hostovaná cez **GitHub Pages**.
 
 Predstavuje ma ako vývojára a obsahuje prehľad projektov, ktoré som vytvoril s využitím frontendových technológií (do rôznej miery s pomocou AI nástrojov). Obsahuje aj jednoduchú JavaScriptovú funkciu, ktorá dynamicky zobrazuje pozdravy vo viacerých jazykoch (EN/DE/FR/SK) – čo odzrkadľuje môj multikultúrny a jazykový profil.
 
@@ -12,7 +12,7 @@ Predstavuje ma ako vývojára a obsahuje prehľad projektov, ktoré som vytvoril
 
 
 ## 🧪 Projekty v portfóliu
-- (https://englishandrej.sk) – Osobná stránka pre jazykové kurzy (HTML, CSS, JS, PHP)  
+- (https://englishandrej.sk) – Lektorova stránka pre jazykové kurzy (HTML, CSS, JS, PHP)  
 - (https://kubikovci.englishandrej.sk) 🐾 – Web pre veterinárnu ambulanciu a chovateľské potreby  
 - (https://andresk-en-fr-de.github.io/andre-s-cocktail-app/) – Projekt na miešanie koktailov podľa ingrediencií,  kód a krásne obrázky pozadia a koktetilov tvorené pomocou CHATGPT a DALL-E 🍹  
 - A samozrejme aj táto landing stránka 😉
