@@ -1,6 +1,6 @@
 # 🌍 Andre's GitHub Portfolio Site
 
-This is my personal IT skills portfolio website, AI-assisted and built from scratch with **HTML, CSS, and JavaScript**, and hosted on **GitHub Pages**.
+This is my personal IT skills portfolio website, built from scratch with **HTML, CSS, and JavaScript**, and hosted on **GitHub Pages**.
 
 The site introduces me and showcases projects I’ve built using traditional front-end technologies with help/advice and sometimes insturctions and generations from AI. It also includes a simple JavaScript feature that dynamically changes the greeting in multiple languages (EN/DE/FR/SK) — reflecting both my multilingual background and growing dev skills.
 
@@ -10,7 +10,7 @@ The site introduces me and showcases projects I’ve built using traditional fro
 
 
 ## 🧪 Featured Projects
-- [englishandrej.sk](https://englishandrej.sk) –  Wbsite of a freelance language teacher (HTML, CSS, JS, PHP)
+- [englishandrej.sk](https://englishandrej.sk) –  Website of a freelance language teacher (HTML, CSS, JS, PHP)
 - [kubikovci.englishandrej.sk](https://kubikovci.englishandrej.sk) – Small business site for a pet store 🐾
 - [Cocktail App](https://andresk-en-fr-de.github.io/andre-s-cocktail-app/) – AI-assisted (chatGPT, DALL-E) project for mixing cocktails based on ingredients 🍹
 - This portfolio page 🚀
